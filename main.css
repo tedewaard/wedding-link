@@ -7,6 +7,12 @@
     html {
         font-family: 'Roboto', sans-serif;
     }
+    h3 {
+        @apply text-2xl font-bold;
+    }
+    p {
+        @apply text-xl;
+    }
 }
 
 @layer utilities {
@@ -30,11 +36,11 @@
 
 
     .slideInLeft {
-        animation: slideInLeft 2s;
+        animation: slideInLeft 3s;
     }
 
     .slideInRight {
-        animation: slideInRight 2s;
+        animation: slideInRight 3s;
     }
 
 }
